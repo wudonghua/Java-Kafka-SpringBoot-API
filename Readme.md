@@ -6,32 +6,32 @@ java-kafka-SpringBoot-API
 # 依赖
 ```xml
 <dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.6</version>
+	<groupId>org.apache.commons</groupId>
+	<artifactId>commons-lang3</artifactId>
+	<version>3.6</version>
 </dependency>
 
 <dependency>
-			<groupId>javassist</groupId>
-			<artifactId>javassist</artifactId>
-			<version>3.11.0.GA</version>
+	<groupId>javassist</groupId>
+	<artifactId>javassist</artifactId>
+	<version>3.11.0.GA</version>
 </dependency>
 
 <dependency>
-			<groupId>org.springframework.kafka</groupId>
-			<artifactId>spring-kafka</artifactId>
+	<groupId>org.springframework.kafka</groupId>
+	<artifactId>spring-kafka</artifactId>
 </dependency>
 
 <dependency>
-			<groupId>org.jetbrains</groupId>
-			<artifactId>annotations</artifactId>
-			<version>15.0</version>
+	<groupId>org.jetbrains</groupId>
+	<artifactId>annotations</artifactId>
+	<version>15.0</version>
 </dependency>
 		
 ```
-#Producer模块
+# Producer模块
 
-#配置yml文件
+# 配置yml文件
 ```java
 Riven:
   kafka:
